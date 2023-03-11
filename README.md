@@ -15,7 +15,7 @@ The LandingPage component is the main component that displays the content of the
 
 1. Clone the repository : 
 
-`git clone https://github.com/username/portfolio.git`
+```git clone https://github.com/username/portfolio.git```
 
 2. Navigate to the project directory : 
 
