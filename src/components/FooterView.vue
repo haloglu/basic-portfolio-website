@@ -1,0 +1,53 @@
+<template>
+  <v-footer>
+    <v-card
+      elevation="0"
+      rounded="0"
+      width="100%"
+      class="text-center"
+      style="background-color: #2c3333"
+    >
+      <v-card-text>
+        <v-btn
+          class="mx-4"
+          icon="fas fa-comment"
+          variant="plain"
+          color="white"
+        ></v-btn>
+        <v-btn
+          class="mx-4"
+          icon="fas fa-university"
+          variant="plain"
+          color="white"
+        ></v-btn>
+        <v-btn
+          class="mx-4"
+          icon="fas fa-wifi"
+          variant="plain"
+          color="white"
+        ></v-btn>
+        <v-btn
+          class="mx-4"
+          icon="fas fa-podcast"
+          variant="plain"
+          color="white"
+        ></v-btn>
+      </v-card-text>
+
+      <v-card-text class="text-white">
+        @ {{ new Date().getFullYear() }} —
+        <strong>Sertaç Haloğlu All Rights Reserved</strong>
+      </v-card-text>
+    </v-card>
+  </v-footer>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+.v-footer {
+  padding: 8px 0 !important;
+}
+</style>
