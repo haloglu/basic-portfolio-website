@@ -15,21 +15,29 @@ The LandingPage component is the main component that displays the content of the
 
 1. Clone the repository : 
 
-``git clone https://github.com/username/portfolio.git``
+```
+git clone https://github.com/username/portfolio.git``
+```
 
 2. Navigate to the project directory : 
 
-`cd portfolio`
+```
+cd portfolio
+```
 
 3. Install dependencies : 
 
-`npm install`
+```
+npm install
+```
 
 ## Usage
 
 1. Start the app :
 
-`npm run serve`
+```
+npm run serve
+```
 
 2. Open a web browser and navigate to `http://localhost:8080`
 
